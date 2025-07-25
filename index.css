@@ -159,14 +159,78 @@ section img{
 .row img{
     height:200px;
     width: 410px;
-    display: flex;
     border-radius: 15px;
     margin-bottom: 15px;
-}  
-.row-2 img{
-    height: 95%;
-    width: 80%;
+
+} 
+.img-1{
+    position: relative;
+}
+.img-2{
+    position: relative;
+}
+
+
+
+.row .item-text{
+    top: 0;
+    left: 0;
+    width: 410px;
+    height: 200px;
+    position: absolute;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+
+
+.row-2 img{
+    height: 415px;
+    width: 700px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+
+.row-2 .item-text{
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 415px;
+    position: absolute;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    
+}
+.item-1 p{
+    font-size: 16px;
+    color: white;
+   
+    
+}
+.item-1 a{
+    color: white;
+    font-size: 16px;
+}
+
+.item-2 p{
+    font-size: 25px;
+    color: white;
+   
+    
+}
+.item-2 a{
+    color: white;
+    font-size: 25px;
+
 
 }
 
@@ -175,39 +239,63 @@ section img{
 /*banner part*/
 
 
-.search{
-    padding: 0 15px;
+.join-color{
+    z-index: 1;
+    background:url(./assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 180px 0px;
+    position: relative;
+}
+.join-color::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.join-title h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.join-form{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
-}
-
-.search img{
-    width:100%;
+    text-align: center;
 
 }
-.banner-content {
-  position: relative;
-  color: rgb(212, 71, 71);
-  top: -150%;
-  text-align: center;
- 
-}
-.banner-content h1{
-    font-size: 40px;
+.join-form input{
+    border: none;
+    padding: 10px 20px;
+    width: 500px;
 
+}
+.join-form button{
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 9px 30px;
+    background-color: #e95a08;
 }
 
 
-.subscribe-form button:hover {
-  background-color: #d9440e;
-}
+
 
 
 
 /*footer section*/
+.main-ft{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 
 footer ,.fog{
     font-size: 15px;
