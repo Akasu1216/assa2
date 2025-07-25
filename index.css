@@ -323,3 +323,92 @@ footer ,.fog{
     gap: 10px;
     padding: 15px;
 }
+
+/*spin part*/
+.spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*responsive part*/
+@media screen and (max-width:576px) {
+  .logo{
+    height: 40px;
+    width: 40px; 
+}
+.hide{
+    display: none;
+
+}
+}
+@media screen and (max-width:576px) {
+
+
+.para-2 p{
+     font-size: 8px;
+     font-weight: 10px;
+    
+    
+}
+.asy{
+    font-size: 7px;
+}
+}
+
+
+
+@media screen and (max-width:576px) {
+  .slid-card{
+     grid-template-columns: repeat(2,1fr);
+  } 
+    
+}
+@media screen and (max-width:576px) {
+.paragraph{
+    flex-direction: column;
+    order: -1;
+}
+.overlay-image{
+    position: relative;
+    top: -570px;     
+    left: -110px;
+    width: 200px;  
+    height: 200px; 
+}
+.bak{
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+    justify-items: center;
+}
+}
+
+@media screen and (max-width:576px) {
+.picture{
+    flex-direction: column;
+}
+.row-2 .item-text{
+    height:100%;
+    width:100%;
+}
+.row-1 .item-text{
+    height:200px;
+    width:400px;
+
+}
+}
+
+@media screen and (max-width:576px) {
+.big{
+    flex-direction: column;
+}
+}
