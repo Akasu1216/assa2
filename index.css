@@ -135,6 +135,103 @@ section img{
   position: relative;
   top: -350px;     
   left: -200px;
-  width: 300px;  
-  height: 300px;
+  width: 250px;  
+  height: 250px;
+}
+
+/*text section*/
+.text{
+   text-align: center;
+   padding-top: 40px;
+   padding-bottom: 50px;
+}
+
+
+.picture{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+   
+}
+.row img{
+    height:200px;
+    width: 410px;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}  
+.row-2 img{
+    height: 95%;
+    width: 80%;
+    border-radius: 15px;
+
+}
+
+
+
+/*banner part*/
+
+
+.search{
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.search img{
+    width:100%;
+
+}
+.banner-content {
+  position: relative;
+  color: rgb(212, 71, 71);
+  top: -150%;
+  text-align: center;
+ 
+}
+.banner-content h1{
+    font-size: 40px;
+
+}
+
+
+.subscribe-form button:hover {
+  background-color: #d9440e;
+}
+
+
+
+/*footer section*/
+
+footer ,.fog{
+    font-size: 15px;
+}
+
+.big{
+    display: flex;
+}
+.final{
+    padding-right: 200px;
+}
+.balk p{
+    margin-bottom: 25px;
+    padding-right: 150px;
+}
+
+.bang p{
+    margin-bottom: 25px;
+    padding-right: 150px;
+}
+.logop{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 10px;
+    padding: 15px;
 }
